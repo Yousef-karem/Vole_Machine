@@ -1,0 +1,8 @@
+//
+// Created by JOO🖤 on 11/12/2023.
+//
+
+#ifndef VOLE_MACHINE_VOLE_MACHINE_H
+#define VOLE_MACHINE_VOLE_MACHINE_H
+
+#endif //VOLE_MACHINE_VOLE_MACHINE_H
