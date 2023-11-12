@@ -93,9 +93,11 @@ void Machine::Instruction(int i) {
         case 3:
             setMemory(0,getRegister( B[1]));
             break;
-        case 4:
+      case 4:
+            setRegister(B[3], getRegister(B[2]));
             break;
         case 5:
+            setRegister(B[1], getRegister(B[2])+ getRegister(B[3]));
             break;
         case 6:
             break;
