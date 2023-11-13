@@ -22,18 +22,20 @@ class Memory
         void setMemory(string location,string value);
         string getMemory(string location,string value);
         void clearMemory();
-        void DisplayMemories();
+        void DisplayMemory();
 
 };
 class Machine:Register,Memory
 {
     private:
-        int* counter;
-        string B[4];
+        int counter;
+        bool Exit;
+        vector<vector<string>>B;
         void Instruction(int i);
     public:
         Machine(int RegisterSize, string initValue1, int MemorySize, string initValue);
         void RunMachine(string filename);
+
 
 };
 #endif //VOLE_MACHINE_VOLE_MACHINE_H
