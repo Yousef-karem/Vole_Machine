@@ -155,7 +155,7 @@ void Machine::Instruction(int i) {
         }
             break;
         default:
-            cerr<<"Error, the instruction is not valid\n";
+            cerr<<"Error, the instruction is not valid"<<endl;
 
     }
 }
