@@ -20,7 +20,7 @@ class Memory
     public:
         Memory(int size,string InitValue);
         void setMemory(string location,string value);
-        string getMemory(string location,string value);
+        string getMemory(string location);
         void clearMemory();
         void DisplayMemory();
 
