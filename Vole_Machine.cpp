@@ -79,7 +79,7 @@ void Memory::clearMemory() {
     }
 }
 
-string Memory::getMemory(string location, string value) {
+string Memory::getMemory(string location) {
     int i=stoi(location,0,16);
     if(i<M.size())
         return M[i];
@@ -131,7 +131,10 @@ void Machine::Instruction(int i) {
             int result = resultBitset.to_ulong();
             stringstream stream;
             stream << hex << result;
-            setRegister(B[counter][1], stream.str());
+            string s=stream.str();
+            if(s.size()==1)
+                s='0'+s;
+            setRegister(B[counter][1], s);
             cout << "the binary values in registers " << B[counter][2] << " and " << B[counter][3]
                  << " to be added and the sum placed in register " << B[counter][1] << endl;
         }

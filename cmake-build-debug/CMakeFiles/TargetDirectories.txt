@@ -1,0 +1,3 @@
+D:/Github/OOP/Vole_Machine/cmake-build-debug/CMakeFiles/Vole_Machine.dir
+D:/Github/OOP/Vole_Machine/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Github/OOP/Vole_Machine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
